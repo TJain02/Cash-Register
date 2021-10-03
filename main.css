@@ -1,0 +1,41 @@
+*{
+    
+
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Patua+One&display=swap');
+
+body{
+    margin: auto;
+    padding: 10vw 30vw 10vw 25vw;
+    font-family: 'Patua One', cursive;
+    color: ivory;
+    background-color: rebeccapurple;
+    
+    align-items: center;
+    
+    
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    width: 50vw;
+    align-items: center;
+}
+
+.change-table{
+        border: 1.5px solid black;
+}
+
+#table-header{
+    border:  1.5px solid black;
+}
+
+.no-of-notes{
+    border:  1.5px solid black;
+}
+
+#denomination{
+    border:  1.5px solid black;
+}
+

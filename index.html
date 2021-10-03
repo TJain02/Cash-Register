@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+   <link rel="stylesheet" href= "./main.css" />
+    <title>Cash Register</title>
+</head>
+
+<body>
+    <div class="container">
+    <h1 class="heading">Cash Register</h1>
+    <p class="description">Enter the bill amount and cash given by the customer and know the denomination of the note to be returned as balance.</p>
+
+    <label for="bill-amount">Bill Amount:</label>
+    <input id="bill-amount" type="text" />
+
+    <label for="cash-given">Cash Given:</label>
+    <input id="cash-given" type="text" />
+
+    <button id="check-button">Check </button>
+    <p id="error-message"></p>
+    
+    <table class="change-table">
+        <caption>Return Change:</caption>
+        <tr>
+            <th id="table-header">No. of Notes</th>
+            <td class="no-of-notes"> </td>
+            <td class="no-of-notes"></td>
+            <td class="no-of-notes"></td>
+            <td class="no-of-notes"></td>
+            <td class="no-of-notes"></td>
+            <td class="no-of-notes"></td>
+            <td class="no-of-notes"></td>
+        </tr>
+        <tr>
+            <th id="table-header">Notes</th>
+            <td id="denomination">2000</td>
+            <td id="denomination">500</td>
+            <td id="denomination">100</td>
+            <td id="denomination">20</td>
+            <td id="denomination">10</td>
+            <td id="denomination">5</td>
+            <td id="denomination">1</td>
+        </tr>
+     </table>
+    </div>
+
+  
+    
+</body>
+
+<script src="index.js"></script>
+
+</html>
